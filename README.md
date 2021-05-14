@@ -2,6 +2,8 @@
 
 These are difficult, long-term projects that would contribute to open source investigations at Bellingcat and for other investigators around the world. If you are interested in working on these topics, Bellingcat can help connect you with technical resources.
 
+Pull requests that add additional references, ideas, or explorations to the list below are very welcomed.
+
 ## Assisted or semi-automated terrain perspective match
 
 From a photograph containing topographic features, can the location and view angle be determined?
