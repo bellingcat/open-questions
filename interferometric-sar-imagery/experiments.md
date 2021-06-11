@@ -7,6 +7,8 @@ Can InSAR images be useful for mapping of deformations caused by airstrikes? I t
 
 Results were not encouraging. Displacement was only non-zero in some areas, and it did not appear to represent real damage on the ground. Additionally, the non-zero displacement was mostly measured in areas with low phase coherence, indicating that the data is pretty suspect to begin with.
 
+![](images/2021-06-10/displacement.png)
+
 This failed for possibly several reasons.
 
 - Coherence was generally low in the Gaza Strip area. This was especially true in many of the agricultural areas, as somewhat expected. This could have caused the phase unwrapping to fail entirely.
