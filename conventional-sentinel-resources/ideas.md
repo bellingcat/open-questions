@@ -9,4 +9,4 @@ So a user would only have to input dates, co-ordinates and a methodology of inte
 the last section in [this]([Excellent medium post on workflows for using SAR data in OSINT investigations](https://towardsdatascience.com/how-to-use-open-source-satellite-data-for-your-investigative-reporting-d662cb1f9f90)) article
 looks very replicable across different classification schema.
 
-  * This is a shameless self-plug, but [this repo](https://github.com/clcr/pyeo) should fulfil some of these needs.
+  * This is a shameless self-plug, but [this repo](https://github.com/clcr/pyeo) should fulfil some of these needs. It's a library for automatically downloading, preprocessing and (if you've got a model) classifying satellite images; there's strong Sentinel-2 support, and the skeleton for Landsat and Planet downloaders. There's some rudimentary cloud detection and cloud-free mosaics as well.
