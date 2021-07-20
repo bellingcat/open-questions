@@ -9,6 +9,7 @@ Pull requests that add additional references, ideas, or explorations to the list
 From a photograph containing topographic features, can the location and view angle be determined?
 * Topographic features could be traced from the image manually.
 * An approximate geographic bounding box could be required to constrain the search space.
+* Could make use of OSM data - triangulation/other techniques used on source image to describe a cluster of OSM features and their positions (e.g. bridge, building, way) which are then searched for in a given region. Descriptions would need to be semantic (e.g. relative placement of features, shape of roads) as that is more meaningful than assumed position.
 
 ### Electrical network frequency analysis
 
