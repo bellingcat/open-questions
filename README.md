@@ -21,3 +21,6 @@ Synthetic aperture radar imagery (as captured by, e.g., Sentinel-1) has certain 
 ### Resource lists for conventional Sentinel imagery
 
 Curation of resources for convential Sentinel-2 imagery would be useful to open source investigators. There are many resources out there, but collecting them in one place would be useful. This could include Sentinel Hub scripts for visualizing certain types of Sentinel-2 products, such as water or fire detection. Bellingcat technical contributors have started collecting some references in the `conventional-sentinel-resources/` folder.
+
+### Open tax document analysis
+Governments hide liabilities in non-profit corporations to [defraud creditors](https://www.bleedingheartland.com/2021/04/01/exclusive-isu-accounting-issues-still-delaying-state-financial-report/). [Organized crime](https://en.wikipedia.org/wiki/Watching_Too_Much_Television) has used non-profits to hold liabilites for fradulent receipt of Government funds.  Data sets like the [IRS 990](https://registry.opendata.aws/irs990/) need tools that identify non-profits with high liabilities.
