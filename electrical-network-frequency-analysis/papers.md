@@ -1,5 +1,44 @@
 # Papers
 
+###### Digital Audio Recording Analysis The Electric Network Frequency Criterion
+Probably first paper about ENF extraction from audio signals.
+Using Frequency Domain Analysis.
+Suggested approach:
+* Using DCLive Forensics software.
+* Down sample the evidence to 120 Hz. (with "Change Sample Rate / Resolution" function)
+* Band-pass filter the audio with cut frequencies around 49 and 51 Hz (with "Band Pass Filter")
+* Compute the spectrogram with a 4096 points FFT.
+* Make a vertical zoom around 50 Hz.
+* Compare with the ENF database. (Probably manually - eye balling spectrogram).
+
+https://www.tracertek.com/media/pdf/an4.pdf
+
+###### Applications of ENF criterion in forensic audio, video, computer and telecommunication analysis
+Probably first paper about ENF extraction from audio signals describing 3 possible methods.
+* Time/frequency domain spectrograms method consists on computing spectrograms
+    * Visually compare questioned versus database ENF.
+    * Useful especially for questioned versus database ENF date and time verification.
+    * The fastest one (if we know exect recording time), is easy to be implemented.
+    * Reveals the ENF components number.
+    * For longer than 10–15 min recordings.
+    * Indicates a non-authentic or non-duplicate evidence recording. 
+    * Must be used before the other two in order to find out the ENF components number.
+* Frequency domain 
+    * Method means to compute FFT over short time windows.
+    * Extract the maximum magnitude value around 50/60 Hz and compare questioned samples versus database ENF.
+    * Can be applied to one ENF component recordings for questioned versus database ENF verification or for database searching in order to identify the questioned ENF recording date and time. 
+    * Can also be used on more than one ENF component recordings in order to separate the ENF components and detect their chronological enter the evidence.
+* Time domain analysis
+    * Consists on zero-crosses measure.
+    * One ENF component recordings only. 
+    * For bigger than 44 kHz sampling frequencies and by implementing zero-crosses interpolation can become sampling frequency independent.
+    * Can offer more useful detail than a frequency domain analysis. 
+    * Applying a band-pass filter with 49–51 Hz cut frequencies, without down sampling the signal, one can separate the ENF waveform from the rest of the recording.
+    * Possible to analyse the original quantification levels of the signal.
+* Calculation degree of correlation between questioned ENF component and reference database ENF for search/verification purpose is used for the last two methods.
+
+https://www.sciencedirect.com/science/article/abs/pii/S0379073806004312
+
 ###### Power Grid Estimation Using Electric Network Frequency Signals
 Using XGBoost classifier with 95.21% and 99.07% precision when ENF signals have 480 and 1920 data points
 https://www.hindawi.com/journals/scn/2019/1982168/

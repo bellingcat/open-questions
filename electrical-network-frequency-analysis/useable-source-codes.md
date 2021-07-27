@@ -2,7 +2,7 @@
 
 ### PyEnf
 * Python based, ENF extraction from audio recordings.
-* Using harmonic frequencies and frequency spectorgram. 
+* Using harmonic frequencies and frequency spectrogram.
 
 https://github.com/deerajnagothu/pyenf_extraction
   
