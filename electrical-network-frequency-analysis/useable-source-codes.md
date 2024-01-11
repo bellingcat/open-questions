@@ -14,3 +14,9 @@ https://github.com/deerajnagothu/pyenf_extraction
 
 https://doi.org/10.1145/3291533.329153
 https://github.com/geokarant/ENF_extraction
+
+### PyQt GUI for ENF Extraction and Matching.
+
+Python code: https://github.com/CoRoe/enf-matching; feeback welcome.
+
+Based on https://github.com/robert/enf-matching
