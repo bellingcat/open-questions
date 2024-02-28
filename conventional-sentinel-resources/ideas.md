@@ -6,5 +6,5 @@ on how to adapt them?
   
 * Could an open source python package be developed for common tasks such as deforestation or water detection?
 So a user would only have to input dates, co-ordinates and a methodology of interest. For instance,
-the last section in [this]([Excellent medium post on workflows for using SAR data in OSINT investigations](https://towardsdatascience.com/how-to-use-open-source-satellite-data-for-your-investigative-reporting-d662cb1f9f90)) article
+the last section in [this](https://towardsdatascience.com/how-to-use-open-source-satellite-data-for-your-investigative-reporting-d662cb1f9f90 "How to use open source satellite data for your investigative reporting") article
 looks very replicable across different classification schema.
