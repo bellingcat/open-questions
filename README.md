@@ -1,4 +1,6 @@
-## Open questions for Bellingcat technical contributors
+## Archived Repository: Open questions for Bellingcat technical contributors
+
+**Archived in July 2026**
 
 These are difficult, long-term projects that would contribute to open source investigations at Bellingcat and for other investigators around the world. If you are interested in working on these topics, Bellingcat can help connect you with technical resources.
 
